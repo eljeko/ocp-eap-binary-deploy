@@ -34,4 +34,6 @@ Expose the service:
 
 ```oc expose svc helloapp```
 
-Now from the route created by OpenShift you can reach the application deployed.
+Wait for the pod with the app to be available (```oc get pods```).
+
+Now from the route created by OpenShift you can reach the application deployed (the application is published on the root path)
