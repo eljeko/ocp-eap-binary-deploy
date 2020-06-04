@@ -1,3 +1,7 @@
+# Prerequisite
+
+* maven >= 3.6
+* [oc client](https://docs.openshift.com/container-platform/4.4/cli_reference/openshift_cli/getting-started-cli.html)
 # Build the app
 
 From the project root
