@@ -14,7 +14,7 @@ Then go back to the project root
 
 Create the project
 
-```oc new-project eap-playground``
+```oc new-project eap-playground```
 
 ```oc project eap-playground```
 
@@ -28,7 +28,7 @@ oc new-app jboss-eap72-openshift:1.1 --binary --name=helloapp
 
 Start the binary build:
 
-```oc start-build helloapp --from-file web-app/target/ROOT.war --follow ;```
+```oc start-build helloapp --from-file web-app/target/ROOT.war --follow;```
 
 Expose the service:
 
